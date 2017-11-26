@@ -1,0 +1,37 @@
+@inproceedings {4852,
+	author = {G{\'a}bor Sz{\'a}rnyas and M{\'a}rton B{\'u}r and Istv{\'a}n R{\'a}th},
+	title = {Train Benchmark Case: an {EMF}-{IncQuery} Solution},
+	journal = {8th Transformation Tool Contest},
+	year = {2015},
+	address = {L{\textquoteright}Aquila, Italy}
+}
+
+@inproceedings {4969,
+	title = {Local search-based pattern matching features in {EMF}-{IncQuery}},
+	booktitle = {8th International Conference on Graph Transformation},
+	year = {2015},
+	note = {Tool demonstration paper},
+	month = {07/2015},
+	publisher = {Springer},
+	organization = {Springer},
+	address = {L{\textquoteright}Aquila, Italy},
+	abstract = {<p>
+	Graph patterns provide a declarative formalism to describe model queries used for several important engineering tasks, such as well-formedness constraint validation or model transformations. As different pattern matching approaches, such as local search or incremental evaluation, have different performance characteristics (smaller memory footprint vs. smaller runtime), a wider range of practical problems can be addressed. The current paper reports on a novel feature of the {EMF}-{IncQuery} framework supporting local search-based pattern matching strategy to complement the existing incremental pattern matching capabilities. The reuse of the existing pattern language and query development environment of {EMF}-{IncQuery} enables to select the most appropriate strategy separately for each pattern without any modifications to the definitions of existing patterns. Furthermore, a graphical debugger component is introduced that visualizes the execution of the search process, helping to understand how complex patterns behave. This tool paper presents the new pattern matching feature from an end users viewpoint while the scientific details of the pattern matching strategy itself are omitted. The approach is illustrated on a case study of automated identification of anti-patterns over program models created from Java source code.</p>
+},
+	keywords = {IncQuery},
+	doi = {10.1007/978-3-319-21145-9_18},
+	url = {http://link.springer.com/chapter/10.1007/978-3-319-21145-9_18},
+	author = {M{\'a}rton B{\'u}r and Zolt{\'a}n Ujhelyi and {\'A}kos Horv{\'a}th and D{\'a}niel Varr{\'o}}
+}
+
+
+@inproceedings{Horvath2014,
+  doi = {10.1109/dasc.2014.6979616},
+  url = {http://dx.doi.org/10.1109/DASC.2014.6979616},
+  year  = {2014},
+  month = {Oct},
+  publisher = {Institute of Electrical {\&} Electronics Engineers ({IEEE})},
+  author = {{\'A}kos Horv{\'a}th and {\'A}bel Heged{\"u}s and M{\'a}rton B{\'u}r and D{\'a}niel Varr{\'o}},
+  title = {Hardware-software allocation specification of {IMA} systems for early simulation},
+  booktitle = {2014 {IEEE}/{AIAA} 33rd Digital Avionics Systems Conference ({DASC})}
+}

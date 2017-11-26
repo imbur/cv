@@ -1,0 +1,14 @@
+#TeXlipse project settings
+#Sun Sep 06 10:23:05 CEST 2015
+markTmpDer=true
+builderNum=2
+outputDir=pdf/
+makeIndSty=
+bibrefDir=
+outputFormat=pdf
+tempDir=tmp
+mainTexFile=marton_bur_cv.tex
+outputFile=marton_bur_cv.pdf
+langSpell=hu
+markDer=true
+srcDir=src/

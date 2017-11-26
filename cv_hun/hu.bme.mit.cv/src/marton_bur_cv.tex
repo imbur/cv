@@ -1,0 +1,98 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\renewcommand{\familydefault}{\rmdefault}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+\makeatother
+
+% \usepackage{biblatex}
+
+
+
+% moderncv themes
+\moderncvstyle{classic} % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         
+%\nopagenumbers{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[magyar]{babel}
+ 
+\usepackage[scale=0.82]{geometry}
+\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+ 
+\name{Búr}{Márton}
+\title{Szakmai önéletrajz}
+\address{Magyarország}{8000 Székesfehérvár}{Koppány utca 6/c}
+\phone[mobile]{+36~70~3232269}
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{marton.bur@gmail.com}
+%\homepage{www.johndoe.com}
+%\extrainfo{1991.04.15.}
+\photo[110pt][0.3pt]{picture}
+%\quote{Some quote}
+
+\begin{document}
+
+\makecvtitle
+
+%\vspace{-20pt}
+
+\section{Végzettségek}
+\cventry{2014--2016}{Mérnök Informatikus MSc}{Budapesti Műszaki és Gazdaságtudományi Egyetem}{}{}{Szolgáltatásbiztos rendszertervezés szakirány\newline{}Diplomaterv címe: Általános lokális keresésen alapuló gráfmintaillesztési keretrendszer\newline{}\textit{Kitüntetéses diploma}}
+\cventry{2010--2014}{Mérnök Informatikus BSc}{Budapesti Műszaki és Gazdaságtudományi Egyetem}{}{}{Informatikai technológiák szakirány, rendszertervezés ágazat\newline{}Szakdolgozat címe: Matlab-Simulink rendszerek modell-alapú validációja\newline{}\textit{Kitüntetéses diploma}}
+\cventry{2004--2010}{Középiskolai érettségi}{Székesfehérvári Teleki Blanka Gimnázium és Általános }{}{}{Speciális matematika tagozat\newline{}\textit{Kitűnő érettségi}}
+
+\section{Szakmai tapasztalatok} 
+\cventry{2015 Jan.--}{Szoftverfejlesztő gyakornok}{IncQuery Labs Ltd}{Budapest}{}{}
+\cventry{2011--}{Demonstrátor}{Budapesti Műszaki és Gazdaságtudományi Egyetem}{}{}{Kurzusok: Analízis Mérnök Informatikusoknak 1-2, Mérés laboratórium 3 ($\mu$C/OS-II),  Informatikai Technológiák Laboratórium 1-2, Adatbázisok, Digitális Technika 1-2, Intelligens Rendszerfelügyelet, Rendszermodellezés}
+
+\section{Nyelvismeret}
+\cvitemwithcomment{Magyar}{Anyanyelv}{}
+\cvitemwithcomment{Angol}{Felsőfokú C1 komplex nyelvvizsga}{}
+\cvitemwithcomment{Német}{Középfokú B2 komplex nyelvvizsga}{}
+\cvitemwithcomment{Kínai}{Alapszintű A2 nyelvismeret}{}
+
+\section{Díjak, kitüntetések}
+\cventry{2013 -- 2015}{Köztársasági ösztöndíj}{3 alkalommal}{}{}{}
+\cventry{2013}{III. helyezés a GPK-TDK konferencián}{}{}{}{Mechatronika szekció\newline{}
+Dolgozat címe: ART2D2 - Art on the two wheels}
+\cventry{2013}{Digilent Design Contest Europe Döntő - Különdíj}{}{}{}{}
+\cventry{2012}{I. helyezés a VIK-TDK konferencián}{}{}{}{Szoftver szekció\newline{}
+Dolgozat címe: Matlab-Simulink rendszerek modell-alapú validációja}
+
+\section{Szakterületek}
+\cvitem{Fő ismeretek}{Modellvezérelt szoftverfejlesztés, Gráfmintaillesztés, Java, Eclipse környezet ismerete}
+\cvitem{További ismeretek}{C, C++, C\#, SQL, LaTeX, Visual Studio, Git, SVN}
+\cvitem{Kutatási terület}{Szoftvermodellezés, Biztonságrkitikus beágyazott rendszerek}
+
+
+\section{Bizonyítvány}
+\cvitem{2014}{ISTQB Foundation level (alapszintű) tesztelői bizonyítvány}
+
+\section{Egyéb}  
+\cvitem{Hobbi}{Horgászat, utazás, kerékpározás, teniszezés, beágyazott rendszerek programozása}
+
+%\renewcommand{\refname}{Publications}
+%\nocite{*}
+%\bibliographystyle{plain}
+%\bibliography{publications.bib} 
+ 
+\section{Publikációk}
+\cventry{2014}{\textnormal{Ákos Horváth, Ábel Hegedüs, \underline{Márton Búr}, Dániel Varró, Rodrigo R. Starr, Samoel Mirachi:} Hardware-software allocation specification of IMA systems for early simulation}{Digital Avionics Systems Conference (DASC)}{Colorado Spings, Colorado, US}{IEEE, 10$/$2014}{}
+\cventry{2015}{\textnormal{\underline{Márton Búr}, Zoltán Ujhelyi, Ákos Horváth, Dániel Varró:} Local search-based pattern matching features in EMF-IncQuery}{8th International Conference on Graph Transformation (ICGT2015)}{Held as Part of STAF 2015, L’Aquila, Italy, July 21-23}{}{}
+
+\cventry{2015}{\textnormal{Gábor Szárnyas, \underline{Márton Búr}, István Ráth:} Train Benchmark Case: an {EMF}-{IncQuery} Solution}{8th Transformation Tool Contest}{Held as Part of STAF 2015, L’Aquila, Italy, July 21-23}{}{}
+
+
+
+
+\section{Hozzájárulás nyíltforráskódú szoftverprojektekhez}
+\cventry{\textbf{EMF-IncQuery}}{\textnormal{Nagyteljesítményű gráfminta kereső keretrendszer EMF modellekhez. \newline{}A projektet az Eclipse Alapítvány tartja karban\newline{}\textit{Weboldal: http://www.eclipse.org/incquery/}}}{} {}{}{}
+\cventry{\textbf{Massif}}{\textnormal{Matlab-Simulink integráiós keretrendszer Eclipse-hez \newline{}\textit{Weboldal: https://github.com/FTSRG/massif}}}{} {}{}{}
+
+
+\end{document}

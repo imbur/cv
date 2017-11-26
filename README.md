@@ -1,6 +1,6 @@
 # My CVs
 
-A summary page for my CV versions.
+This repository stores my current CVs.
 
 English version: [![PDF Status](https://www.sharelatex.com/github/repos/imbur/cv_eng/builds/latest/badge.svg)](https://www.sharelatex.com/github/repos/imbur/cv_eng/builds/latest/output.pdf)
 

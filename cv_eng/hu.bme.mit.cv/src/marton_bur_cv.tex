@@ -1,0 +1,95 @@
+\documentclass[11pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+\renewcommand{\familydefault}{\rmdefault}
+
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}
+\makeatother
+
+% \usepackage{biblatex}
+
+
+
+% moderncv themes
+\moderncvstyle{classic} % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         
+%\nopagenumbers{}
+
+\usepackage[utf8]{inputenc}
+\usepackage[magyar]{babel}
+ 
+\usepackage[scale=0.82]{geometry}
+\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+ 
+\name{Márton}{Búr}
+\title{Curriculum vitae}
+\address{Koppány street 6/c}{8000 Székesfehérvár}{Hungary}
+\phone[mobile]{+36~70~3232269}
+%\phone[fixed]{+2~(345)~678~901}
+%\phone[fax]{+3~(456)~789~012}
+\email{marton.bur@gmail.com}
+%\homepage{www.johndoe.com}
+%\extrainfo{1991.04.15.}
+\photo[110pt][0.3pt]{picture}
+%\quote{Some quote}
+
+\begin{document}
+
+\makecvtitle
+
+\vspace{-20pt}
+
+\section{Education}
+\cventry{2014--2016}{Computer Engineering MSc}{Budapest University of Technology and Economics}{}{}{Specialization: Dependable system design\newline{}Title of thesis: A general purpose local search based pattern matching framework\newline{}\textit{Graduated excellent with highest honors}}
+\cventry{2010--2014}{Computer Engineering BSc}{Budapest University of Technology and Economics}{}{}{Specialization: Information technologies, system design\newline{}Title of thesis: Model-based validation of Matlab Simulink systems\newline{}\textit{Graduated excellent with highest honors}}
+
+\section{Experience}
+\cventry{2015 Jan.--}{Software developer}{IncQuery Labs Ltd}{Budapest}{}{}
+\cventry{2011--}{Teaching assistant}{Budapest University of Technology and Economics}{}{}{Courses: Calculus 1-2 for Software Engineers, Measurement Laboratory 3 ($\mu$C/OS-II),  IT Engineering Laboratory 1-2, Database Theory, Digital Design 1-2, Intelligent Systems Supervision, Systems Modeling, Systems Engineering}
+
+\section{Language}
+\cvitemwithcomment{Hungarian}{Mother tounge}{}
+\cvitemwithcomment{English}{Advanced C1 level exam}{}
+\cvitemwithcomment{German}{Intermediate B2 level exam}{}
+\cvitemwithcomment{Chinese}{Elementary A2 knowledge}{}
+
+\section{Awards}
+\cventry{2013 -- 2015}{Scholarship of the Republic of Hungary}{3 times}{}{}{}
+\cventry{2013}{Third Prize at BUTE Scientific Students’ Association Conference}{}{}{}{Section: Mechatronics\newline{}
+Subject: ART2D2 - Art on the two wheels}
+\cventry{2013}{Digilent Design Contest Europe Finals - Honorable Mention}{}{}{}{}
+\cventry{2012}{First Prize at BUTE Scientific Students’ Association Conference}{}{}{}{Section: Software\newline{}
+Subject: Model based validation of Matlab Simulink systems}
+
+\section{Skills}
+\cvitem{Main focus}{Model driven software development, Graph pattern matching, Java, Eclipse platform}
+\cvitem{Also experienced}{C, C++, C\#, SQL, LaTeX, Visual Studio, Git, SVN}
+\cvitem{Research interests}{Software modeling, Safety critical embedded systems}
+
+\section{Other}  
+\cvitem{Hobbies}{Fishing, traveling, cycling, tennis, embedded programming}
+
+\renewcommand{\refname}{Publications}
+\nocite{*}
+%\bibliographystyle{plain}
+\bibliographystyle{abbrv}
+%\bibliographystyle{ieeetr}
+\bibliography{publications.bib} 
+ 
+% \section{Publications}
+% \cventry{2014}{\textnormal{Ákos Horváth, Ábel Hegedüs, \underline{Márton Búr}, Dániel Varró, Rodrigo R. Starr, Samoel Mirachi:} Hardware-software allocation specification of IMA systems for early simulation}{Digital Avionics Systems Conference (DASC), Colorado Spings, Colorado, US, IEEE, 10$/$2014}{}{}{}
+% \cventry{2015}{\textnormal{\underline{Márton Búr}, Zoltán Ujhelyi, Ákos Horváth, Dániel Varró:} Local search-based pattern matching features in EMF-IncQuery}{8th International Conference on Graph Transformation (ICGT2015)}{Accepted}{}{}
+
+\section{Certification}
+\cvitem{2014}{ISTQB Foundation level exam}
+
+
+
+\section{Open Source Project Contributions}
+\cventry{\textbf{EMF-IncQuery}}{\textnormal{High performance graph search framework for EMF models. \newline{}The project is maintained by the Eclipse Foundation\newline{}\textit{Website: http://www.eclipse.org/incquery/}}}{} {}{}{}
+\cventry{\textbf{Massif}}{\textnormal{Matlab-Simulink Integration Framework for Eclipse \newline{}\textit{Website: https://github.com/FTSRG/massif}}}{} {}{}{}
+
+
+\end{document}
