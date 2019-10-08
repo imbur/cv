@@ -23,24 +23,29 @@
 \setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
 %\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
  
-\name{Márton}{Búr}
+%\name{Márton}{Búr \includegraphics[width=2cm]{marton-bur-webpage-qr}}
+\name{Marton}{Bur}
 \title{Curriculum vitae}
-\address{500 Avenue des Pins, \#704}{Montreal, Quebec, H2W 1S7}{Canada}
+\address{500 Avenue des Pins}{Montreal, Quebec, H2W 1S7}{Canada}
 \phone[mobile]{+1~514~638-1989}
 %\phone[fixed]{+2~(345)~678~901}
 %\phone[fax]{+3~(456)~789~012}
 \email{marton.bur@mail.mcgill.ca}
 %\homepage{www.johndoe.com}
 %\extrainfo{1991.04.15.}
-\photo[110pt][0.3pt]{2018-MEDA-MartonBur}
+\photo[55pt][0.0pt]{marton-bur-webpage-qr}
 %\quote{Some quote}
 
 \begin{document}
 
 \makecvtitle
-\vspace{-20pt}
+\vspace{-40pt}
+
+
 \section{Education}
-\cventry{2017--}{PhD in Software Engineering}{McGill University}{Montreal}{Canada}{Field of : Dependable system design\newline{}Title of thesis: A general purpose local search based pattern matching framework\newline{}\textit{Graduated excellent with highest honors}}
+\cventry{2017--}{PhD in Software Engineering}{McGill University}{Montreal}{Canada}{
+PhD topic: Smart and Safe Systems Assurance Using Runtime Models and Graph Queries
+}
 \cventry{2014--2016}{MSc in Software Engineering}{Budapest University of Technology and Economics}{Budapest}{Hungary}{Specialization: Dependable system design\newline{}Title of thesis: A general purpose local search based pattern matching framework\newline{}\textit{Graduated excellent with highest honors}}
 \cventry{2010--2014}{BSc in Software Engineering}{Budapest University of Technology and Economics}{Budapest}{Hungary}{Specialization: Information technologies, system design\newline{}Title of thesis: Model-based validation of Matlab Simulink systems\newline{}\textit{Graduated excellent with highest honors}}
 
@@ -52,22 +57,25 @@
 \cventry{2012 Summer}{Software Developer Intern}{Budapest University of Technology and Economics}{Budapest}{Hungary}{}
 
 
+\section{Open Source Project Contributions}
+\cventry{\textbf{VIATRA}}{High performance graph search and transformation framework}{website: \url{http://www.eclipse.org/viatra/}}{own contribution: foundations of a state-of-the-art search-based graph pattern matching algorithm integrated in the framework}{}{The project is maintained by the Eclipse Foundation.}
+\cventry{\textbf{Massif}}{Matlab-Simulink Integration Framework for Eclipse}{website: \url{https://github.com/FTSRG/massif}}{own contribution: major part of the implementation of a Simulink-EMF bidirectional model transformation}{}{}
+
+
+\section{Skills and Interests}
+\cvitem{Research interests}{Models@run.time for cyber-physical systems, Runtime assurance methods, Safety critical embedded systems, Applications of graph pattern matching}
+\cvitem{Technical skills (experience)}{\textbf{Java} (8 years), \textbf{Eclipse platform} (7 years), \textbf{C/C++} (10 years); C\#, SQL, Python, Bash; Linux, Git, SVN, LaTeX; Agile development, Software Testing (ISTQB Foundation Level Certificate)}
+
+
 \section{Teaching}
-\cventry{2019}{Guest Lecturer}{McGill University}{Montreal}{Canada}{Topics: Modeling with UML -- Class Diagrams, Object Diagrams (ECSE223)}
-\cventry{2018}{Guest Lecturer}{McGill University}{Montreal}{Canada}{Topics: IoT Communication Architectures and Protocols (ECSE681), Frontend Development with Vue.js (ECSE321)}
+\cventry{2018, 2019}{Guest Lecturer}{McGill University}{Montreal}{Canada}{Topics: IoT Communication Architectures and Protocols (ECSE681), Frontend Development with Vue.js (ECSE321), Modeling with UML -- Class Diagrams, Object Diagrams (ECSE223)}
 \cventry{2018--}{Teaching Assistant}{McGill University}{Montreal}{Canada}{Courses taught: Introduction to Software Engineering (ECSE321), Model-Based Programming (ECSE223), and Software Validation (ECSE429)}
 \cventry{2015 July}{Guest Lecturer}{State Key Laboratory for Novel Software Technology at Nanjing University}{Nanjing}{China}{Topic: Languages, Grammars, and Model Transformations with Software Tool Support}
 \cventry{2011--2017}{Teaching Assistant}{Budapest University of Technology and Economics}{Budapest}{Hungary}{Courses taught: Calculus 1-2 for Software Engineers, Measurement Laboratory 3 ($\mu$C/OS-II),  IT Engineering Laboratory 1-2, Database Theory, Digital Design 1-2, Intelligent Systems Supervision, Systems Modeling, and Systems Engineering}
 
-\section{Languages}
-\cvitemwithcomment{Hungarian}{Mother tongue}{}
-\cvitemwithcomment{English}{Advanced C1 level exam}{}
-\cvitemwithcomment{German}{Intermediate B2 level exam}{}
-\cvitemwithcomment{Chinese}{Elementary B1/HSK 3 knowledge}{}
-
 \section{Awards}
 \cventry{2019, 2018}{Graduate Research Enhancement and Travel (GREAT) Award}{}{}{}{}
-\cventry{2018}{EASST Best Paper Award at 21st International Conference on Fundamental Approaches to Software Engineering (FASE 2018)}{Paper title: Distributed Graph Queries for Runtime Monitoring of Cyber-Physical Systems.}{Authors: Márton Búr, Gábor Szilágyi, András Vörös and Dániel Varró}{}{}
+\cventry{2018}{EASST Best Paper Award at 21st International Conference on Fundamental Approaches to Software Engineering (FASE 2018)}{Paper title: Distributed Graph Queries for Runtime Monitoring of Cyber-Physical Systems.}{}{}{}
 \cventry{2018}{ETAPS 2018 Student Scholarship}{}{}{}{}
 \cventry{2017}{McGill Engineering Doctoral Award (MEDA)}{Duration: 3 years}{}{}{}
 
@@ -78,22 +86,14 @@ Subject: ART2D2 - Art on the Two Wheels}
 \cventry{2012}{First Prize at BUTE Scientific Students’ Association Conference}{}{}{}{Section: Software\newline{}
 Subject: Model-Based Validation of Matlab Simulink Systems}
 
-\section{Skills}
-\cvitem{Research interests}{Models@run.time for cyber-physical systems, Runtime assurance methods, Safety critical embedded systems, Applications of graph pattern matching}
-\cvitem{Technologies}{\textbf{Java}, \textbf{Eclipse platform}, \textbf{C}, \textbf{Git}, C++, C\#, SQL, Linux, LaTeX, SVN, Agile project management tools}
+
+\section{Languages}
+\cvitem{}{Hungarian (Mother tongue), English (Advanced C1 level exam), German (Intermediate }
+\cvitem{}{B2 level exam), Chinese (Elementary B1/HSK 3 knowledge)}
 
 
-\section{Certification}
-\cventry{2014}{\textbf{Software Tester Certificate (Foundation Level)}}{}{}{}{Issuer: International Software Testing Qualifications Board (ISTQB)}
-
-
-\section{Open Source Project Contributions}
-\cventry{\textbf{VIATRA}}{\textnormal{High performance graph search and transformation framework. \newline{}The project is maintained by the Eclipse Foundation\newline{}\textit{Website: http://www.eclipse.org/viatra/}}}{} {}{}{}
-\cventry{\textbf{Massif}}{\textnormal{Matlab-Simulink Integration Framework for Eclipse \newline{}\textit{Website: https://github.com/FTSRG/massif}}}{} {}{}{}
-
-
-%\section{Other}  
-%\cvitem{Hobbies}{Fishing, traveling, cycling, tennis, embedded programming}
+%\section{Hobbies}  
+%\cvitem{}{Fishing, cycling, tennis, embedded programming}
 
 
 \renewcommand{\refname}{List of Publications}
